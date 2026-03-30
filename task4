@@ -1,0 +1,14 @@
+public class methods {
+    public static void add(int a, int b) {
+    int sum= a+b;
+    System.out.println("sum:" +sum);
+    }
+    public static void diffrence(int c, int d) {
+        int diffrence= c-d;
+        System.out.println("diffrence:" +diffrence);
+    }
+public static void main(String[] args) {
+    add(22,63);
+    diffrence(87,73);
+} 
+}
