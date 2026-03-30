@@ -1,0 +1,16 @@
+public class myprofile {
+    static String name="sahasthra";
+    static int age=19;
+    static char bloodgrp='B';
+    public static void main(String[] args) {
+        boolean topper=false;
+        double attndce=85.7;
+        String mothertongue="telugu";
+        System.out.println("name :"+name);
+        System.out.println("age :"+age);
+        System.out.println("bloodgrp :"+bloodgrp);
+        System.out.println("topper :"+topper);
+        System.out.println("attndce :"+attndce);
+        System.out.println("mothertongue :"+mothertongue);
+    }
+}
