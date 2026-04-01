@@ -1,0 +1,37 @@
+public class instagram {
+    static String username="sahasthra_thummala";
+    static int followers=200;
+    static  String password="laddu2006";
+
+    
+    public static void main(String[] args) {
+    System.out.println("username:" +username);
+    System.out.println("followers:" +followers);
+    System.out.println("password:" +password);
+    addfollower(3);
+    deletefollower(1);
+    changepassword("laddu1234");
+    changeusername("sahasthra_ladduuu");
+    }
+    
+    public static void addfollower(int newfollower) {
+        followers=followers + newfollower; 
+      System.out.println("follower added successfully.:" +followers);
+    }
+    
+    public static void deletefollower(int follower) {
+        followers=followers-follower;
+        System.out.println("follower removed successfully:" +followers);
+    }
+    
+    public static void changepassword(String newpassword) {
+        password=newpassword;
+        System.out.println("password changed." + "newpassword:"  +password);
+        
+    }
+    
+    public static void changeusername(String newusername) {
+        username=newusername;
+        System.out.println("username changed successfully. " + "newusername:" +username);
+    }
+}
