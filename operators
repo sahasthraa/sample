@@ -1,0 +1,51 @@
+public class Operators {
+
+public static void main(String[] args) {
+    double a=65;
+    double b=19;
+        System.out.println("addition:" +(a+b));
+        System.out.println("substraction:" +(a-b));
+        System.out.println("product: " +(a*b));
+        System.out.println("division:" +(a/b));
+        System.out.println("modules: " +(a%b));
+    
+    
+    double i=9;
+        System.out.println(i);
+        System.out.println(i++);
+        System.out.println(i);
+        System.out.println(++i);
+        System.out.println(i);
+        System.out.println(i--);
+        System.out.println(i);
+        System.out.println(--i);
+        System.out.println(i);
+        
+    
+        System.out.println(a == b);
+        System.out.println(a != b);
+        System.out.println(a > b);
+        System.out.println(a < b);
+        System.out.println(a >= b);
+        System.out.println(a <= b);
+        
+        System.out.println(a == b && (a>b));
+        System.out.println(a != b && (a>b));
+        System.out.println(a < b && (a!=b));
+        System.out.println(a == b && (a<b));
+        System.out.println(a == b || (a>b));
+        System.out.println(a != b || (a==b));
+        System.out.println(a == b || (a<b));
+        System.out.println(a != b || (a>b));
+        
+        int balance = 5000;
+        balance += 4000;
+        balance -= 2000;
+        balance *= 5;
+        balance /= 7;
+        balance %= 7;
+        System.out.println(balance);
+    
+}
+}
+ 
