@@ -1,0 +1,23 @@
+public class Operators {
+    static  double a = 36;
+    static double b = 7; 
+
+    public static void main(String[] args)  
+        double sum = a + b; 
+        double substraction = a-b; 
+        double product = a*b; 
+        double division= a/b;
+        double modulus = a%b; 
+           
+
+        System.out.println("The sum of a and b is: " +sum);
+        System.out.println("The difference of a and b is: " +substraction);
+        System.out.println("The product of a and b is: " +product);
+        System.out.println("The quotient of a and b is: " +division);
+        System.out.println("The remainder of a and b is: " +modulus);
+
+
+    }
+
+}
+ 
