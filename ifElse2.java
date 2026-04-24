@@ -1,4 +1,4 @@
-public class if else2{
+public class ifElse2{
     static int num=33;
     public static void main(String args[]){
         if(num==44){

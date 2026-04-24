@@ -1,4 +1,4 @@
-public class if {
+public class if{
 
 static int marks=76;
 
