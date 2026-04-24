@@ -7,4 +7,5 @@ static int age=17;
     System.out.println("voter is minor,not eligible to vote");
     }
 }
+
 }
