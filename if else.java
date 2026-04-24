@@ -1,4 +1,5 @@
 public class ifelse{
+
     static int age=17;
     public static void main(String args[]){
     if(age>18){
