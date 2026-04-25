@@ -7,4 +7,4 @@ f class doWhileFF{
            } while(i<1);
         
     }
-}false
+}
